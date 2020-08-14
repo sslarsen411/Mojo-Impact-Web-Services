@@ -1,2 +1,2 @@
 # Mojo-Impact-Web-Services
-Code for web development
+Code for MWS web development

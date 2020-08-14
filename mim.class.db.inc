@@ -1,17 +1,18 @@
 <?php 
 /**
  * dbObj  
- * Universal DB handling for LWS Hosting
+ * Universal DB handling for MWS Hosting
  * @author Scott Larsen
- * @copyright 2010 - 2014
+ * @copyright 2010 - 2020
  * 01-25-10 Added functionality to change databases
+ * 05-12-12 Major upgrade from mysql to mysqli. Debug complete 
  * 06-12-13 Changed parameter order in queryDatabase: rowcount now last
  *          will default to FALSE. Most queries need only db, user, pass
  * 09-20-2014 Minor fixes
  * 07-19-2016 Added Create Tables function using multi-query
  * 08-10-2016 Changed file name to be more consistant
- * 06-24-2017 Changed name of file to mwd for migration to mojo web development
- * now in root
+ * 06-24-2017 Changed name of file to mim for migration to mojo web development
+ * 
  */
 class dbObj{     
     protected $conn;      
